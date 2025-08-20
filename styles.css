@@ -65,3 +65,9 @@ div{
 body{
     background-color: palevioletred;
 }
+
+.timetable > div {
+    border: 5px solid goldenrod;  /* makes the grid lines visible */
+    padding: 10px;            /* optional, for spacing inside cells */
+    text-align: center;
+}
