@@ -1,0 +1,63 @@
+.banner{
+    height: 10%;
+    width: 100%;
+    background-image: url("./src/download.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    display: flex;            /* center text */
+    align-items: center;      /* vertical center */
+    justify-content: center;  /* horizontal center */
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    padding-top: 20px;
+    color: black;
+    font-size: large;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.agenda{
+    margin-bottom: 10px;
+    background-image: url("./src/agenda.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 90%;
+    justify-content: center;
+    text-align: center;
+}
+
+.timetable{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 25px;
+    font-size: large;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    justify-content: center;
+}
+
+.timetable div {
+    display: flex;             /* make cell a flex container */
+    flex-direction: column;    /* stack content vertically */
+    align-items: center;       /* center horizontally */
+    justify-content: center;   /* optional, center vertically if needed */
+    text-align: center;
+}
+
+.timetable img{
+    width: 60%;
+    height: 50%;              /* maintain aspect ratio */
+    display: block;            /* removes inline spacing issues */
+    margin-top: 10px;          /* optional spacing from input/button */
+}
+
+div{
+    justify-content: center;
+}

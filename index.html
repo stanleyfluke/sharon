@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharon's Birthday</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="banner">
+        <h1>Sharon's Birthday Agenda 30/08/2025    </h1>
+        <h2></h2>
+    </div>
+    <div class="agenda">
+        <div class="timetable">
+            <div>6:45 pm</div>
+            <div>Fine Dining at Fleur Restaurant<img src="./src/Fleur.jpg" alt="Italian Trulli"></div>
+            <div>7:45 pm</div>
+            <div>First Birthday Present Reveal (enter PIN to reveal)
+                <input type="password" id="pin1" maxlength="4" placeholder="4-digit PIN">
+                <button onclick="checkPin1()">Unlock</button>
+                <img id="present1" src="./src/pandora.jpg" alt="Italian Trulli" style="display: none;">
+            </div>
+            <div>8:30 pm</div>
+            <div>Second Birthday Present Reveal (enter PIN to reveal)
+                <input type="password" id="pin2" maxlength="4" placeholder="4-digit PIN">
+                <button onclick="checkPin2()">Unlock</button>
+                <img id="present2" src="./src/sweatshirt.jpg" alt="Italian Trulli" style="display: none;">
+            </div>
+            <div>8:40 pm</div>
+            <div>birthday candle wishes</div>
+            <div>9:45 pm</div>
+            <div>Final Present + an important message
+                <input type="password" id="pin3" maxlength="4" placeholder="4-digit PIN">
+                <button onclick="checkPin3()">Unlock</button>
+                <img id="present3" src="./src/flower.jpg" alt="Italian Trulli" style="display: none;"></div>
+        </div>
+    </div>
+
+
+    
+    <script src="./index.js"></script>
+</body>
+</html>
