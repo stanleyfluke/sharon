@@ -1,5 +1,5 @@
 .banner{
-    height: 10%;
+    height: 30vh;
     width: 100%;
     background-image: url("./src/download.png");
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
-    height: 90%;
+    height: 100vh;
     justify-content: center;
     text-align: center;
 }
