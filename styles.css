@@ -15,6 +15,26 @@
     font-size: large;
 }
 
+.sharondp {
+    width: 150px;          /* fixed size container */
+    height: 150px;
+    border-radius: 50%;    /* make the container circular */
+    overflow: hidden;      /* hide anything outside the circle */        /* center the image inside */
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;  /* horizontal center */
+    align-items: center;      /* vertical center if needed */
+}
+
+.sharondp img {
+    width: 100%;           /* fill the container */
+    height: 100%;          /* fill the container */
+    object-fit: cover;        /* fills the container */
+    object-position: center 5%; /* move the image down a bit */     /* crop to cover container perfectly */       /* remove inline spacing */
+}
+
 * {
     margin: 0;
     padding: 0;
