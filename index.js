@@ -9,7 +9,7 @@ function checkPin1(){
         present1.style.display = "block";
         text1.style.display = "block";
       } else {
-        alert("Wrong PIN! Try again.");
+        alert("Hmm… that’s not the right PIN, but you just unlocked my heart anyway 💕");
       }
 }
 
@@ -24,7 +24,7 @@ function checkPin2(){
         present2.style.display = "block";
         text2.style.display = "block";
       } else {
-        alert("Wrong PIN! Try again.");
+        alert("Wrong PIN, but you’re still my favorite password 💖");
       }
 }
 
@@ -39,6 +39,6 @@ function checkPin3(){
         present3.style.display = "block";
         text3.style.display = "block";
       } else {
-        alert("Wrong PIN! Try again.");
+        alert("That’s not it… but you just cracked the code to my heart 💓");
       }
 }
