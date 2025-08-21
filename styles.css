@@ -61,6 +61,7 @@
     font-size: large;
     font-family: 'Pacifico', cursive;
     text-align: center;
+    font-size: x-small;
     justify-content: center;
 }
 
@@ -74,7 +75,7 @@
 
 .timetable img{
     width: 50%;
-    height: 10vh;              /* maintain aspect ratio */
+    height: 8vh;              /* maintain aspect ratio */
     display: block;            /* removes inline spacing issues */
     margin-top: 10px;          /* optional spacing from input/button */
 }
