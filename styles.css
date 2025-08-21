@@ -1,5 +1,5 @@
 .banner{
-    height: 30vh;
+    height: 10vh;
     width: 100%;
     background-image: url("./src/download.png");
     background-repeat: no-repeat;
@@ -13,6 +13,17 @@
     padding-top: 20px;
     color: black;
     font-size: large;
+}
+
+.agenda{
+    margin-bottom: 10px;
+    background-image: url("./src/agenda.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
 }
 
 .sharondp {
@@ -42,16 +53,6 @@
 }
 
 
-.agenda{
-    margin-bottom: 10px;
-    background-image: url("./src/agenda.png");
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center;
-    height: 100vh;
-    justify-content: center;
-    text-align: center;
-}
 
 .timetable{
     display: grid;
@@ -72,8 +73,8 @@
 }
 
 .timetable img{
-    width: 60%;
-    height: 50%;              /* maintain aspect ratio */
+    width: 50%;
+    height: 10vh;              /* maintain aspect ratio */
     display: block;            /* removes inline spacing issues */
     margin-top: 10px;          /* optional spacing from input/button */
 }
@@ -84,6 +85,7 @@ div{
 
 body{
     background-color: palevioletred;
+
 }
 
 .timetable > div {
