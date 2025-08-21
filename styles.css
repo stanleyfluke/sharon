@@ -27,7 +27,7 @@
 
 .sharondp {
     width: 150px;          /* fixed size container */
-    height: 150px;
+    height: 140px;
     border-radius: 50%;    /* make the container circular */
     overflow: hidden;      /* hide anything outside the circle */        /* center the image inside */
 }
