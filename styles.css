@@ -60,7 +60,7 @@
 .timetable{
     display: grid;
     grid-template-columns: 1fr 3fr;
-    gap: 25px;
+    gap: 5px;
     font-size: large;
     font-family: 'Pacifico', cursive;
     text-align: center;
@@ -78,9 +78,9 @@
 
 .timetable img{
     width: 50%;
-    height: 8vh;              /* maintain aspect ratio */
+    height: 5vh;              /* maintain aspect ratio */
     display: block;            /* removes inline spacing issues */
-    margin-top: 10px;          /* optional spacing from input/button */
+    margin-top: 5px;          /* optional spacing from input/button */
 }
 
 div{
@@ -96,4 +96,9 @@ body{
     border: 5px solid goldenrod;  /* makes the grid lines visible */
     padding: 10px;            /* optional, for spacing inside cells */
     text-align: center;
+}
+
+input{
+    height: 15px;
+    width: 100px;
 }
