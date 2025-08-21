@@ -15,14 +15,18 @@
     padding-bottom: 10px;
 }
 
-.agenda{
+.agenda {
+    min-height: 100vh;                  /* fill full screen at minimum */
     padding: 20px;
     background-image: url("./src/agenda.png");
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;             /* cover entire area */
     background-position: center;
-    justify-content: center;
+    background-attachment: fixed;       /* optional: parallax effect */
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;        /* content grows downward */
 }
 
 .sharondp {
