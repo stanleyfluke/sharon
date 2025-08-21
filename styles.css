@@ -1,5 +1,5 @@
 .banner{
-    height: 20vh;
+    padding: 40px 10px;
     width: 100%;
     background-image: url("./src/download.png");
     background-repeat: no-repeat;
@@ -9,19 +9,18 @@
     align-items: center;      /* vertical center */
     justify-content: center;  /* horizontal center */
     text-align: center;
-    font-family: 'Great Vibes', cursive;
-    padding-top: 20px;
+    font-family: 'Great Vibes', cursive;;
     color: black;
     font-size: large;
+    padding-bottom: 10px;
 }
 
 .agenda{
-    margin-bottom: 10px;
+    padding: 20px;
     background-image: url("./src/agenda.png");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
-    height: 80vh;
     justify-content: center;
     text-align: center;
 }
