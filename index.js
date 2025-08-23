@@ -36,8 +36,7 @@ function checkPin3(){
     const correctPin = "7146";
 
     if (input === correctPin) {
-        present3.style.display = "block";
-        text3.style.display = "block";
+        alert("Every code you cracked brought you closer to the truth. The final reward isn’t all about goods/materials etc — it’s something real, waiting in your hands… and a secret I’ve been waiting to tell you");
       } else {
         alert("That’s not it… but you just cracked the code to my heart 💓");
       }
