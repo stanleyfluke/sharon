@@ -33,7 +33,7 @@ function checkPin3(){
     const present3 = document.getElementById("present3");
     const text3 = document.getElementById("text3");
 
-    const correctPin = "7146";
+    const correctPin = "3008";
 
     if (input === correctPin) {
         alert("Every code you cracked brought you closer to the truth. The final reward isn’t all about goods/materials etc — it’s something real, waiting in your hands… and a secret I’ve been waiting to tell you");
