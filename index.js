@@ -19,7 +19,7 @@ function checkPin2(){
     const text2 = document.getElementById("text2");
 
     const correctPin = "7241";
-7241
+    
     if (input === correctPin) {
         present2.style.display = "block";
         text2.style.display = "block";

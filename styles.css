@@ -83,6 +83,15 @@
     margin-top: 5px;          /* optional spacing from input/button */
 }
 
+.carousel-inner img {
+  max-height: 200px;  /* or whatever size you want */
+  object-fit: contain; /* fit inside, may leave blank space */
+}
+
+h2{
+    font-family: 'Pacifico', cursive;
+}
+
 div{
     justify-content: center;
 }
